@@ -1,7 +1,7 @@
 {
   "app-id": "fr.sgued.ten_forward",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
@@ -37,7 +37,7 @@
       "generated-sources.json",
       {
           "type": "git",
-          "commit": "67163aa771dbb73e2cd108a49a743c9517a5627d",
+          "commit": "e1a2c164dc9e79357042744081d4e3b0076d5101",
           "url": "https://codeberg.org/sgued/ten-forward.git"
       }
     ]
