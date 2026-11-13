@@ -29,15 +29,15 @@
       "install -Dm755 ./target/release/ten-forward -t /app/bin/"
     ],
     "post-install": [
-      "install -Dm644 dist/fr.sgued.ten_forward.metainfo.xml /app/share/appdata/fr.sgued.ten_forward.metainfo.xml",
-      "install -Dm644 dist/fr.sgued.ten_forward.desktop /app/share/applications/fr.sgued.ten_forward.desktop",
+      "install -Dm644 target/xdgen/fr.sgued.ten_forward.metainfo.xml /app/share/appdata/fr.sgued.ten_forward.metainfo.xml",
+      "install -Dm644 target/xdgen/fr.sgued.ten_forward.desktop /app/share/applications/fr.sgued.ten_forward.desktop",
       "install -Dm644 assets/icon.svg /app/share/icons/hicolor/scalable/apps/fr.sgued.ten_forward.svg"
     ],
     "sources": [
       "generated-sources.json",
       {
           "type": "git",
-          "commit": "482f7568d0601731085b7f29225b4d8c4f86b597",
+          "commit": "ad494ffaf18d55917190ef14ace4c5b325f61015",
           "url": "https://codeberg.org/sgued/ten-forward.git"
       }
     ]
